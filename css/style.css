@@ -97,7 +97,15 @@ nav ul {
   max-width: 10em;
 }
 
-/*Slider*/
+/*Header*/
+
+header {
+  background-color: black;
+}
+
+header img {
+  max-width: 600px;
+}
 
 
 
@@ -105,10 +113,13 @@ nav ul {
 #connect ul {
   display: flex;
   flex-direction: row;
-  background-color: rgba(232, 212, 60, 0.25);
   list-style: none;
   align-items: center;
   justify-content: center;
+}
+
+#connect ul li {
+  margin: 0 .7em;
 }
 
 
