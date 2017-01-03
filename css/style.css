@@ -59,6 +59,11 @@ body {
   font-size: 15px;
 }
 
+a {
+  color: rgba(232, 212, 60, 1);
+  text-decoration: none;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -68,12 +73,21 @@ h1,h2,h3 {
   color: rgba(232, 212, 60, 1);
 }
 
+h2 {
+  font-size: 2em;
+  margin: .6em .3em .6em .3em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
 /*Nav*/
 
 nav ul {
   display: flex;
   flex-direction: row;
-  background-color: rgba(232, 212, 60, 0.25);
+  background-color: black;
   list-style: none;
   align-items: center;
   justify-content: center;
