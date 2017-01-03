@@ -52,10 +52,11 @@ table {
 
 
 body {
+  font-family: 'Old Standard TT', serif;
   background-color: #152744;
   color: white;
   margin:0px;
-  border: .25em solid rgba(232, 212, 60, 1);
+  border: .15em solid rgba(232, 212, 60, 1);
   font-size: 15px;
 }
 
@@ -107,16 +108,8 @@ header img {
   max-width: 600px;
 }
 
-/*Fonts*/
-body {
-  font-family: 'Old Standard TT', serif;
-
-}
-
-
-
-
 /*Connect*/
+
 #connect ul {
   display: flex;
   flex-direction: row;
@@ -127,6 +120,9 @@ body {
 
 #connect ul li {
   margin: 0 .7em;
+  border: .15em solid rgba(232, 212, 60, 1);
+    border-radius: 4px;
+    padding: .5rem .5rem;
 }
 
 
@@ -147,4 +143,16 @@ body {
 
 .upcoming-shows li h4, .upcoming-shows li p {
   margin: 0 .7em;
+}
+
+/*Footer*/
+
+footer {
+  background-color: black
+}
+
+footer img {
+  max-width: 10em;
+  display: block;
+  margin: 0 auto;
 }
