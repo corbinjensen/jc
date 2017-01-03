@@ -125,8 +125,8 @@ header img {
 
 /*Upcoming Shows*/
 
-ul.upcoming-shows {
-
+.upcoming-shows {
+  margin-bottom: 3em;
 }
 
 .upcoming-shows li {
@@ -136,4 +136,8 @@ ul.upcoming-shows {
   list-style: none;
   align-items: center;
   justify-content: center;
+}
+
+.upcoming-shows li h4, .upcoming-shows li p {
+  margin: 0 .7em;
 }
