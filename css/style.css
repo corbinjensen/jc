@@ -83,6 +83,12 @@ h4 {
   font-size: 1.25em;
 }
 
+@media (min-width: 32em) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
 /*Nav*/
 
 nav ul {
@@ -91,7 +97,7 @@ nav ul {
   background-color: black;
   list-style: none;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .logo {
@@ -106,6 +112,8 @@ header {
 
 header img {
   max-width: 300px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Connect*/
@@ -115,7 +123,7 @@ header img {
   flex-direction: row;
   list-style: none;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #connect ul li {
@@ -125,8 +133,8 @@ header img {
 
 /*Upcoming Shows*/
 
-.upcoming-shows {
-  margin-bottom: 3em;
+article {
+  margin-bottom: 2em;
 }
 
 .upcoming-shows li {
@@ -135,7 +143,7 @@ header img {
   flex-direction: row;
   list-style: none;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .upcoming-shows li h4, .upcoming-shows li p {
