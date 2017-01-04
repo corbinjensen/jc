@@ -201,6 +201,7 @@ article:last-of-type {
 @media (min-width: 32em) {
   .info h3 {
     font-size: 1.3rem;
+  }
 }
 
 audio {
