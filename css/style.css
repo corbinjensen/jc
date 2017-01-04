@@ -144,6 +144,7 @@ article:last-of-type {
 
 .upcoming-shows li {
   background-color: rgba(232, 212, 60, 0.25);
+  padding: .5em;
   display: flex;
   flex-direction: row;
   list-style: none;
