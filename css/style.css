@@ -163,6 +163,12 @@ article:last-of-type {
   margin: 0 .7em;
 }
 
+/*Music*/
+
+.music img {
+  max-width: 400px;
+}
+
 /*Footer*/
 
 footer {
