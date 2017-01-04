@@ -134,7 +134,12 @@ header img {
 /*Upcoming Shows*/
 
 article {
+  margin-top: 2em;
   margin-bottom: 2em;
+}
+
+article:last-of-type {
+  margin-bottom: 3em;
 }
 
 .upcoming-shows li {
