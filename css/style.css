@@ -82,7 +82,7 @@ img {
   height: auto;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
   color: rgba(232, 212, 60, 1);
 }
 
@@ -91,8 +91,15 @@ h2 {
   margin: .6em .3em .6em .3em;
 }
 
+h3 {
+  font-size: 1.5em;
+  margin: .3em 0;
+
+}
+
 h4 {
   font-size: 1.25em;
+  margin: .3em 0;
 }
 
 
@@ -172,15 +179,21 @@ article:last-of-type {
   background-position: center;
   display: flex;
   align-items: flex-end;
+  margin-left: 1em;
 }
 
 .info {
-  background-color: rgba(97,97,97 ,.5);
+  background: linear-gradient(to top, rgba(21, 39, 68,.7),rgba(21, 39, 68,.7) 50%, rgba(0,0,0,0));
   width: 100%;
+  height: 30%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 audio {
-  max-width: 100%;
+  width: 100%;
 }
 
 /*Footer*/
