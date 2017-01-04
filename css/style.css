@@ -45,11 +45,46 @@ table {
 	border-spacing: 0;
 }
 
+/*Fonts*/
+
+@font-face {
+    font-family: 'old_standard_bold';
+    src: url('fonts/Old_Standard_TT/oldstandard-bold-webfont.woff2') format('woff2'),
+         url('fonts/Old_Standard_TT/oldstandard-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'old_standard_italic';
+    src: url('fonts/Old_Standard_TT/oldstandard-italic-webfont.woff2') format('woff2'),
+         url('fonts/Old_Standard_TT/oldstandard-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'old_standard_regular';
+    src: url('fonts/Old_Standard_TT/oldstandard-regular-webfont.woff2') format('woff2'),
+         url('fonts/Old_Standard_TT/oldstandard-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*General*/
 
 
 body {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'old_standard_regular', serif;
   background-color: #152744;
   color: white;
   margin:0px;
@@ -84,6 +119,7 @@ a {
 }
 
 h1,h2,h3,h4 {
+	font-family: 'old_standard_bold', serif;
   color: rgba(232, 212, 60, 1);
 }
 
