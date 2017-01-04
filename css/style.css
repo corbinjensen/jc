@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote, q
 	quotes: none;
 }
 blockquote:before, blockquote:after,
@@ -119,9 +119,16 @@ nav ul {
   max-width: 10em;
 }
 
+.logo2 {
+  max-width: 4em;
+}
+
 @media (min-width:60em) {
   .logo {
     max-width: 15em;
+  }
+  .logo2 {
+    max-width: 6em;
   }
 }
 
@@ -210,7 +217,7 @@ article:last-of-type {
 .track {
   max-width: 400px;
   height: 400px;
-  background-image: url("../img/gasoline.jpg");
+  background-image: url("../img/jimmypacificcentral.jpg");
   background-position: center;
   display: flex;
   align-items: flex-end;
