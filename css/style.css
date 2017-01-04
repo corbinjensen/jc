@@ -72,14 +72,15 @@ body {
   }
 }
 
+@media (min-width:60em) {
+  body {
+      border: .25em solid rgba(232, 212, 60, 1);
+  }
+}
+
 a {
   color: rgba(232, 212, 60, 1);
   text-decoration: none;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 h1,h2,h3,h4 {
@@ -118,17 +119,37 @@ nav ul {
   max-width: 10em;
 }
 
+@media (min-width:60em) {
+  .logo {
+    max-width: 15em;
+  }
+}
+
 /*Header*/
+
+
 
 header {
   background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
-header img {
-  max-width: 300px;
-  display: block;
-  margin: 0 auto;
+img.hero2 {
+  display: none;
 }
+
+@media (min-width:60em) {
+  header {
+    justify-content: space-around;
+  }
+  img.hero2 {
+    display: flex
+  }
+}
+
+
 
 /*Connect*/
 
@@ -166,7 +187,7 @@ article:last-of-type {
   justify-content: space-around;
 }
 
-@media (min-width: 46em) {
+@media (min-width: 58.44rem) {
   .shows-photo {
     background-image: url('../img/jimmy-crackcorn-singing.jpg');
     background-position: center;
@@ -234,4 +255,10 @@ footer img {
   max-width: 10em;
   display: block;
   margin: 0 auto;
+}
+
+@media (min-width:60em) {
+  footer img {
+    max-width: 15em;
+  }
 }
