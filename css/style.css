@@ -168,7 +168,7 @@ article:last-of-type {
 .track {
   max-width: 400px;
   height: 400px;
-  background-image: url("../img/gasoline.jpg") center no-repeat;
+  background-image: url("../img/gasoline.jpg");
   background-position: center;
   display: flex;
   align-items: flex-end;
