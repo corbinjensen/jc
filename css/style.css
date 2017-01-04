@@ -60,6 +60,18 @@ body {
   font-size: 15px;
 }
 
+@media (min-width: 32em) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width:40em) {
+  body {
+    border: .22em solid rgba(232, 212, 60, 1);
+  }
+}
+
 a {
   color: rgba(232, 212, 60, 1);
   text-decoration: none;
@@ -83,11 +95,6 @@ h4 {
   font-size: 1.25em;
 }
 
-@media (min-width: 32em) {
-  body {
-    font-size: 1.2em;
-  }
-}
 
 /*Nav*/
 
