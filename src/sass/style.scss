@@ -1,5 +1,12 @@
 @import 'normalize';
 
+
+// Vars
+
+$jimmyGold: rgba(232, 212, 60, 1);
+$jimmyDeepBlue: #152744;
+$OldStandardBold:'old_standard_bold';
+
 /*Fonts*/
 
 @import 'type';
@@ -9,10 +16,10 @@
 
 body {
   font-family: 'old_standard_regular', serif;
-  background-color: #152744;
+  background-color: $jimmyDeepBlue;
   color: white;
   margin:0px;
-  border: .15em solid rgba(232, 212, 60, 1);
+  border: .15em solid $jimmyGold;
   font-size: 15px;
   line-height: 1.3;
   display: flex;
@@ -28,24 +35,24 @@ body {
 
 @media (min-width:45em) {
   body {
-    border: .22em solid rgba(232, 212, 60, 1);
+    border: .22em solid $jimmyGold;
   }
 }
 
 @media (min-width:60em) {
   body {
-      border: .25em solid rgba(232, 212, 60, 1);
+      border: .25em solid $jimmyGold;
   }
 }
 
 a {
-  color: rgba(232, 212, 60, 1);
+  color: $jimmyGold;
   text-decoration: none;
 }
 
 h1,h2,h3,h4 {
-	font-family: 'old_standard_bold', serif;
-  color: rgba(232, 212, 60, 1);
+	font-family: $OldStandardBold, serif;
+  color: $jimmyGold;
 }
 
 h2 {

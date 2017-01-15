@@ -106,7 +106,7 @@ a {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'old_standard_bold', serif;
+  font-family: "old_standard_bold", serif;
   color: #e8d43c;
 }
 
@@ -160,6 +160,11 @@ nav ul li.lady {
 @media (max-width: 375px) {
   .logo2 {
     display: none;
+  }
+}
+@media (min-width: 960px) {
+  .jimmy-logo {
+    order: -1;
   }
 }
 @media (min-width: 60em) {

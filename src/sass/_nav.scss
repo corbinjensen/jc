@@ -36,6 +36,12 @@ nav ul li.lady {
 	}
 }
 
+@media (min-width:960px) {
+  .jimmy-logo {
+    order: -1;
+  }
+}
+
 @media (min-width:60em) {
   .logo {
     max-width: 15em;
